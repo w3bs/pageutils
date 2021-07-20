@@ -4,7 +4,7 @@ const click = require("./../lib/clickelement")
 
 
 
-module.exports.openpage  {
+module.exports.pageutils = {
 openpage,
 click,
 
