@@ -1,0 +1,10 @@
+'use strict';
+console.log('index.js starting');
+const open = require('./lib/openpage.js')
+const click = require('./lib/clickelement.js')
+console.log('\n in index, open.done = %j, click.done = %j', open.done, click.done)
+
+module.exports.pageutils = 'pageutils';
+exports.done = true;
+console.log(require.main);
+console.log(module.id);
