@@ -1,13 +1,13 @@
 'use strict';
 console.log('index.js starting');
-const open = require('./lib/openpage/openpage.js')
-const click = require('./lib/clickelement/clickelement.js')
-console.log('\n in index, open.done = %j, click.done = %j', open.done, click.done)
+const {openpage} = require('./lib/openpage/openpage.js')
+const {clickElement} = require('./lib/clickelement/clickelement.js')
+console.log('\n in index, open.done = %j, click.done = %j', openpage.done, clickElement.done)
 
 
 module.exports = {
-open,
-click
+openpage,
+clickElement
 };
 
 exports.done = true;
