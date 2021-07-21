@@ -1,7 +1,7 @@
-const {openpage, click} = require('../pageutils.js')
+const pageutils = require('./../pageutils.js')
 const log = console.log
+console.log(require.main);
 
-oP = require('./../lib/openpage')
 
-oP.openpage("https://www.tutorialsteacher.com/nodejs/nodejs-module-exports")
+open("https://www.tutorialsteacher.com/nodejs/nodejs-module-exports")
 //utils.clickelement("#btnPrev")

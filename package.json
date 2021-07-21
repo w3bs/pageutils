@@ -1,8 +1,7 @@
 {
-  "name": "pageutils",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "@w3bs/pageutils",
+  "version": "2.0.1",
+  "main": "pageutils.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +14,11 @@
   "bugs": {
     "url": "https://github.com/w3bs/pageutils/issues"
   },
-  "homepage": "https://github.com/w3bs/pageutils#readme"
+  "homepage": "https://github.com/w3bs/pageutils#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {},
+  "description": ""
 }
