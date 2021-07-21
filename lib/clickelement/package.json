@@ -1,0 +1,2 @@
+{ "name" : "clickelement",
+  "main" : "./lib/clickelement/clickelement.js" }
